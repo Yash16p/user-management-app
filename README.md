@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# User-Management-App
+This project is a modern Account Management System built with React, Redux, and Bootstrap. It offers a comprehensive solution for user authentication, profile management, and a personalized dashboard. The system is designed to be user-friendly, scalable, and maintainable, making it ideal for both personal and professional use.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+Account Management is a React application designed to manage user accounts efficiently. The application includes features for user registration, login, profile updates, and password changes. It uses React for the frontend, Redux for state management, and Bootstrap for responsive styling.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- User Registration
+- User Login
+- Profile Update
+- Password Change
+- Display of Recent Activities
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to set up the project locally:
 
-### `npm test`
+1. *Clone the repository:*
+   ```bash
+   git clone https://github.com/Yash16p/user-management-app
+   cd user-management-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Usage
+User Registration
+Navigate to the registration page to create a new account.
+Fill in the required details (email, password, username, phone, address) and submit the form.
+User Login
+Navigate to the login page to access your account.
+Enter your email and password to log in.
+Profile Update
+Once logged in, go to the account page to view your profile information.
+Click the "Edit" button to update your email, username, phone, or address.
+Submit the form to save changes.
+Password Change
+In the dashboard, click the "Change Password" button.
+Enter your new password and submit the form to update your password.
+Recent Activities
+View recent activities on the dashboard page to keep track of your account actions.
